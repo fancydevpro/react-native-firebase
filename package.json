@@ -1,8 +1,8 @@
 {
-  "name": "react-native-firebase",
-  "version": "5.6.0",
+  "name": "@fancydevpro/react-native-firebase",
+  "version": "5.6.0-notification-crash-fix",
   "author": "Invertase <oss@invertase.io> (http://invertase.io)",
-  "description": "A well tested, feature rich Firebase implementation for React Native, supporting iOS & Android. Individual module support for Admob, Analytics, Auth, Crash Reporting, Cloud Firestore, Database, Dynamic Links, Functions, Messaging (FCM), Remote Config, Storage and more.",
+  "description": "A well tested, feature rich Firebase implementation for React Native, supporting iOS & Android. Individual module support for Admob, Analytics, Auth, Crash Reporting, Cloud Firestore, Database, Dynamic Links, Functions, Messaging (FCM), Remote Config, Storage and more. THIS VERSION INCLUDES THE FIX OF IOS CRASH WHEN TAPPING PUSH NOTIFICATION WHILE APP IS IN BACKGROUND STATE.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
